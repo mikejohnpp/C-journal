@@ -1,0 +1,20 @@
+bin/
+build/
+*.o
+*.out
+*.exe
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+.ccls
+.gdb_history
+.ccls-cache/

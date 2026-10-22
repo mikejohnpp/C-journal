@@ -1,0 +1,3 @@
+Some random text for testing file in C
+This is a new line
+Test c in new line text file
