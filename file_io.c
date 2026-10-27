@@ -1,27 +1,24 @@
-#include <stdio.h>
 #include <errno.h>
-#include <string.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <string.h>
 
-char* file_path = "hello_text.txt";
+char *file_path = "hello_text.txt";
 FILE *fp;
 
-void get_print_error()
-{
-    int errorrr = errno;
-    printf("%s\n", strerror(errorrr));
+void get_print_error() {
+  int errorrr = errno;
+  printf("%s\n", strerror(errorrr));
 }
 
-bool open_file()
-{
-   fp = fopen(file_path, "r");
-   if (fp == NULL) {
-       get_print_error();
-       return false;
-   }
-   return true;
+bool open_file() {
+  fp = fopen(file_path, "r");
+  if (fp == NULL) {
+    get_print_error();
+    return false;
+  }
+  return true;
 }
-
 
 // int main(void) {
 //
@@ -36,12 +33,9 @@ bool open_file()
 // }
 
 int main(void) {
-    if(open_file() == false)
-    {
-        return -1;
-    }
-
-    int linecount = 0;
-    char 
-        sdfsdf
+  if (open_file() == false) {
+    return -1;
+  }
+  main();
+  int linecount = 0;
 }
